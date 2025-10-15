@@ -141,14 +141,18 @@
                     <td>10am-2pm</td>
                 </tr>
             </table>
+            <br><br>
 
+            
+            <button onclick = "doSomething()"style= font-size:25px;background-color:grey;color:lightblue;border-radius:25px;>click me</button>
+            <p id="greeting">Hello</p>
+            <!-- In line Javascript to add functions to button!-->
+            <script>
+                function doSomething(){
+                    document.getElementById("greeting").innerHTML = "Goodbye"
+                }
+            </script>
 
-
-
-
-
-
-      
         </body>
     </body>
 </html>
