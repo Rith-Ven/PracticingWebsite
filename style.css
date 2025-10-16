@@ -1,5 +1,6 @@
 body{
     color:rgb(30, 18, 102);
+    background-color:rgb(206, 181, 255);
 }
 
 h4{
@@ -20,4 +21,8 @@ header{
 
 #verse{
     color:rgb(130, 69, 199);
+}
+
+input{
+    color:rgb(30, 18, 102);
 }
