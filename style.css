@@ -1,6 +1,16 @@
+@font-face{
+    src: url(font/OpenSans.ttf);
+    font-family:Open-Sans-Light;
+}
+
 body{
     color:rgb(30, 18, 102);
     background-color:rgb(206, 181, 255);
+    font-family: verdana, georgia;
+}
+
+main{
+    font-size: 15px;
 }
 
 h4{
@@ -9,6 +19,7 @@ h4{
 
 header{
     background-color:mediumpurple;
+
 }
 
 #pre-chorus{
@@ -17,6 +28,7 @@ header{
 
 #chorus{
     color:rgb(30, 18, 102);
+    
 }
 
 #verse{
@@ -25,4 +37,8 @@ header{
 
 input{
     color:rgb(30, 18, 102);
+}
+
+.chorus{
+    font-weight:bold;
 }
