@@ -12,6 +12,12 @@ body{
 
 }
 
+#pianofact{
+    border: 2px solid;
+    height: 75px;
+    overflow: auto; /*visible, hidden, clip, clip-margin, scroll, auto*/
+}
+
 #img1{
     float:left;
     margin-right: 15px;
