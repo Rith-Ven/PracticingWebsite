@@ -9,6 +9,12 @@ body{
     font-family: verdana, georgia;
 }
 
+h1{
+    border-style: outset;
+    border-color:rgb(116, 23, 163);
+    /* border-top, left, right, bottom radius (to round)*/
+}
+
 main{
     font-size: 15px;
 }
