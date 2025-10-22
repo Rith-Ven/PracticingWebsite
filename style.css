@@ -7,14 +7,41 @@ body{
     color:rgb(30, 18, 102);
     background-color:rgb(206, 181, 255);
     font-family: verdana, georgia;
+    /*border:1px solid;*/
+    display: flow-root; /*Prevents floating image from overflowing outside of a border*/
+
+}
+
+#img1{
+    float:left;
+    margin-right: 15px;
+    margin: 5px;
+}
+
+#img2{
+    float:right;
+    margin-left:15px;
+    margin:5px;
+}
+
+.box{
+    width:250px;
+    height:250px;
+    background-color:rgb(255, 242, 224);
+    box-shadow: 1px 1px 5px;
+    font-size: 5em;
+    margin: 50px; /*use auto to fix it to a side*/
 }
 
 #box1{
-    width:100px;
-    height:100px;
-    background-color:rgb(255, 242, 224);
-    box-shadow: 1px 1px 5px;
+    background-color:rgb(161, 207, 250);
+    
 }
+
+#box2{
+    background-color:rgb(249, 166, 255);
+}
+
 
 h1{
     border-style: outset;
