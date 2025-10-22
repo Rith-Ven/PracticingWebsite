@@ -9,10 +9,18 @@ body{
     font-family: verdana, georgia;
 }
 
+#box1{
+    width:100px;
+    height:100px;
+    background-color:rgb(255, 242, 224);
+    box-shadow: 1px 1px 5px;
+}
+
 h1{
     border-style: outset;
     border-color:rgb(116, 23, 163);
     /* border-top, left, right, bottom radius (to round)*/
+    text-shadow: 1px 1px 5px rgb(188, 131, 228); /*Can add another shadow, separate by comma*/
 }
 
 main{
