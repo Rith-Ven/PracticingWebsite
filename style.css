@@ -30,17 +30,34 @@ body{
     margin:5px;
 }
 
+*{
+    box-sizing: border-box; /*disregards padding or borders*/
+}
+
+.container{
+    background-color: rgb(228, 210, 253);
+    height:100vh;
+    margin-bottom:20px;
+}
+
 .box{
-    width:250px;
-    height:250px;
+    width:50%;
+    height:auto;
+    padding:20px;
+    float:left;
+    margin-bottom: 50px;
+    text-align:center;
+    min-height:50%;
+
     background-color:rgb(255, 242, 224);
     box-shadow: 1px 1px 5px;
     font-size: 5em;
-    margin: 50px; /*use auto to fix it to a side*/
+    /* margin: 50px;*use auto to fix it to a side*/
 }
 
 #box1{
     background-color:rgb(161, 207, 250);
+
     
 }
 
@@ -88,4 +105,22 @@ input{
 
 .chorus{
     font-weight:bold;
+}
+
+/*
+    #div{
+        background-color: rgb(225, 111, 111);
+        display: block; /* none (won't display), block, inline, or inline-block (can apply width + height)*/
+        /* visibility: none; hides it, but still there 
+        }  
+
+    #span{
+        background-color: rgb(123, 123, 234);
+        display: block;
+    }
+*/
+
+
+hr{
+    border-color:rgb(59, 39, 93)
 }
