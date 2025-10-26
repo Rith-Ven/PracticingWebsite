@@ -9,8 +9,61 @@ body{
 
 #container{
     border: 2px solid;
+    background-color:white;
 
 }
 #container > p{
     background-color: rgb(255, 255, 120);
+}
+
+#container ~ p{
+    border: 2px solid;
+    background-color: rgb(255, 199, 86);
+    padding: 15px;
+    margin:5px;
+}
+
+a:link{
+    color:rgb(21, 21, 134);
+}
+a:hover{
+    color:rgb(149, 149, 255);
+    font-size:1.1em;
+}
+a:active{
+    color:rgb(235, 157, 0);
+    font-size:1.1em;
+}
+a:visited{
+    color:rgb(21, 21, 134);
+}
+li:hover{
+    background-color: rgb(255, 198, 92);
+}
+li:not(:hover){
+    background-color:rgb(174, 174, 174);
+}
+li:nth-child(){
+    backgounr-color: rgb(255, 255, 150);
+}
+
+h1::first-letter{
+    font-size:1.5em;
+}
+div::first-line{
+    font-style:italic;
+}
+p::selection{
+    background-color: rgb(2, 68, 139);
+    color:orange;
+}
+/* can also add an after pseudoelement
+#advice li::before{
+    content:"✓";
+}
+    */
+#advice li::marker{
+    content:"✓";
+    color:rgb(0, 0, 78)
+
 }
