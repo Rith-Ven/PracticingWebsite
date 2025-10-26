@@ -1,0 +1,8 @@
+/* If background is too small:
+    background-repeat: no-repeat
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;         */
+body{
+    background-image: url(images/kingpenguins.jpeg);
+}

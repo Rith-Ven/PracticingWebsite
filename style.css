@@ -54,9 +54,16 @@ body{
     font-size: 5em;
     /* margin: 50px;*use auto to fix it to a side*/
 }
-
+/* Position: RELATIVE (moves from where it normally it) 
+             FIXED (relative to viewport) 
+             ABSOLUTE (relative to nearest ancestor)
+             STICKY (moves based on scroll position)
+             STATIC (default position for an element)*/
 #box1{
     background-color:rgb(161, 207, 250);
+    position:relative;
+    top:100px;
+    left:100px;
 
     
 }
