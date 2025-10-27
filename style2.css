@@ -44,7 +44,7 @@ li:not(:hover){
     background-color:rgb(174, 174, 174);
 }
 li:nth-child(){
-    backgounr-color: rgb(255, 255, 150);
+    background-color: rgb(255, 255, 150);
 }
 
 h1::first-letter{
@@ -57,7 +57,7 @@ p::selection{
     background-color: rgb(2, 68, 139);
     color:orange;
 }
-/* can also add an after pseudoelement
+/* can also add an 'after' pseudoelement
 #advice li::before{
     content:"✓";
 }
@@ -67,3 +67,7 @@ p::selection{
     color:rgb(0, 0, 78)
 
 }
+/*Pseudoclasses select elements based on their state or position 
+    ex. :hover, :focus, :nth-child, :root
+  Pseudoelements let you style specific parts of an elementsor insert content 
+    ex. ::before, ::after, ::first-letter, ::first-line*/

@@ -131,3 +131,22 @@ input{
 hr{
     border-color:rgb(59, 39, 93)
 }
+
+.pagination{
+    text-align: center;
+
+}
+.pagination a{
+    color:black;
+    text-decoration:none; /*underlining*/
+    padding: 8px 15px;
+    display: inline-block; /*lets us adjust width and height*/
+}
+.pagination a.active{ /*Within the pagination class, within the anchor tags, find the class that is active*/
+    background-color:rgb(245, 205, 255);
+    font-weight:bold;
+    border-radius:5px;
+}
+.pagination a:hover:not(.active){ /*Highlight elements that are hovered over but not active*/
+    background-color:rgb(159, 136, 231);
+}

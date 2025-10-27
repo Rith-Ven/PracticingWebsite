@@ -6,6 +6,7 @@
         
         <link rel="icon" type ="image/png" href="images/favicon.png"> <!--specifies relationship between this doc and external source-->
         <title>My random first website</title>
+        <link rel="stylesheet" href="style.css">
     </header>
     <body>
         <br> <!--This is a line break, a self-closing tag-->
@@ -142,7 +143,6 @@
                 </tr>
             </table>
             <br><br>
-
             
             <button onclick = "doSomething()"style= font-size:25px;background-color:grey;color:lightblue;border-radius:25px;>click me</button>
             <p id="greeting">Hello</p>
@@ -152,6 +152,14 @@
                     document.getElementById("greeting").innerHTML = "Goodbye"
                 }
             </script>
+
+            <div class = "pagination">
+                <a href="index.html"><</a>
+                <a href="index.html" class ="active">1</a>
+                <a href="page2.html">2</a>
+                <a href="page3.html">3</a>
+                <a href="page2.html">></a>
+            </div>
 
         </body>
     </body>
