@@ -1,0 +1,91 @@
+*{
+    box-sizing:border-box; /*When we calculate the width, this factors in padding*/
+}
+
+body{
+    margin:0px;
+}
+
+header{
+    background-color:rgb(125, 177, 222);
+    text-align:center;
+    padding: 20px;
+}
+
+main{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+h1{
+    text-align:center;
+}
+
+.navbar{
+    background-color:aliceblue;
+    height:50px;
+}
+
+.navbar ul{
+    list-style-type:none;
+    background-color: rgb(58, 52, 52);
+    padding:0px;
+    margins:0px;
+    overflow:hidden;
+}
+.navbar a{
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    display:block;
+    text-align:center;
+
+}
+.navbar a:hover{
+    background-color:gray;
+}
+.navbar li{
+    float:left;
+}
+
+aside{
+    width:20%;
+    float:left;
+    padding:10px;
+}
+section{
+    width:40%;
+    float:left;
+    padding:10px;
+}
+article{
+    width:40%;
+    float:left;
+    padding:10px;
+}
+footer{
+    display:block;
+    clear: both;   /*To clear the float that runs over to this line*/
+    background-color:rgb(125, 177, 222);
+    text-align:center;
+    padding: 20px;    
+}
+@media screen and (max-width: 600px){  /*Makes the screen more accessible for mobile screens*/
+    aside, section, article{
+        width:100%;
+    }
+}
+
+.gallery{
+    display:inline-block;
+    border:1px solid;
+    margin:5px;
+}
+
+.gallery .description{
+    padding:10px;
+    text-align:center;
+}
+.gallery:hover{
+    border:1px solid rgba(88, 88, 88, 0.622);
+}

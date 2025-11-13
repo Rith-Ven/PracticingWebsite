@@ -176,15 +176,15 @@ hr{
     background-color: beige;
     position: absolute;
     min-width:100px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.801);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.801);
 }
 
 .dropdown:hover .content{
     display:block;
 }
 .dropdown:hover button{
-    background-color:rgba(245, 245, 220, 0.629);
+    background-color:rgb(245, 245, 220);
 }
-.dropdown:hover a{
-    background-color:rgba(245, 245, 220, 0.629);
+.dropdown a:hover{
+    background-color:rgba(169, 138, 227, 0.276);
 }
